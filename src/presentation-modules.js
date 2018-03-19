@@ -46,6 +46,8 @@ const slidesImports = [
   import("./slides/0_intro/intro_3"),
   import("./slides/0_intro/intro_4"),
   import("./slides/0_intro/intro_5"),
+  import("./slides/1_nodejs_4_noobs/start_1"),
+  import("./slides/1_nodejs_4_noobs/start_2"),
   /*
 voir plan.md 
 
