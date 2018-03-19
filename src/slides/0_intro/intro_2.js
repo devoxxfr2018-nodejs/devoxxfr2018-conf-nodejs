@@ -2,7 +2,7 @@ import React from "react";
 import { Heading, Slide, Text, Notes, List, ListItem } from "spectacle";
 
 export default (
-    <Slide transition={['zoom']} >
+    <Slide transition={['fade']} >
      <Heading>TODO SPEAKERS</Heading>
      <List>
         <ListItem>Alexandre Victoor</ListItem>
