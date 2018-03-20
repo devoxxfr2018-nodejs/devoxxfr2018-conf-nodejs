@@ -3,13 +3,10 @@ import { Heading, Notes, Slide, Image, Text } from "spectacle";
 
 export default (
     <Slide transition={['zoom']} bgColor="primary">
-        <Image src="assets/speccollab2.gif" width="90%" />
-        <Text>
-            TODO
-            TODO
-        </Text>
+        <Image src="assets/nodejs-event-loop.png" />
         <Notes>
-            
+           <p>TODO refaire</p>
+           <p>http://abdelraoof.com/blog/2015/10/28/understanding-nodejs-event-loop/</p> 
             
         </Notes>
     </Slide>

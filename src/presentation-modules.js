@@ -30,7 +30,8 @@ const theme = createTheme(
     primary: 'white',
     secondary: '#1F2022',
     tertiary: '#03A9FC',
-    quartenary: '#CECECE'
+    quartenary: '#CECECE',
+    rose: '#ff4081'
   },
   {
     primary: 'Montserrat',
@@ -49,6 +50,10 @@ const slidesImports = [
   import("./slides/1_nodejs_4_noobs/start_1"),
   import("./slides/1_nodejs_4_noobs/start_2"),
   import("./slides/1_nodejs_4_noobs/start_3"),
+  import("./slides/2_nodejs_under_the_cover/node_1"),
+  import("./slides/2_nodejs_under_the_cover/node_2"),
+  import("./slides/2_nodejs_under_the_cover/node_3"),
+  import("./slides/2_nodejs_under_the_cover/node_4"),
   /*
 voir plan.md 
 
