@@ -48,6 +48,7 @@ const slidesImports = [
   import("./slides/0_intro/intro_5"),
   import("./slides/1_nodejs_4_noobs/start_1"),
   import("./slides/1_nodejs_4_noobs/start_2"),
+  import("./slides/1_nodejs_4_noobs/start_3"),
   /*
 voir plan.md 
 

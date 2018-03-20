@@ -14,7 +14,7 @@ export default (
             
         </Notes>
     </Slide>
-    /*<CodeSlide
+    <CodeSlide
           bgColor="secondary"
           transition={['fade']}
           lang="js"
@@ -29,6 +29,6 @@ export default (
             { loc: [0, 22]},
           ]}
           showLineNumbers={true}
-        />*/
+        />
     
 );

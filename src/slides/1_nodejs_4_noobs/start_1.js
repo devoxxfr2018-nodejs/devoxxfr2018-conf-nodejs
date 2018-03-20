@@ -15,7 +15,9 @@ export default (
             <Image src="assets/logo_microsoft.png" />
         </Layout>    
         <Notes>
-            
+            <p>Node c'est quoi: un projet ope source, v8 + libub,
+                 un server http et une fondation avec des grosses
+                  boites qui dirigent le projet</p>
             
         </Notes>
     </Slide>
