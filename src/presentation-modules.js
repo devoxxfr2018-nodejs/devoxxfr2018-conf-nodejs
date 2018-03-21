@@ -21,6 +21,8 @@ import CodeSlide from 'spectacle-code-slide';
 // Import theme
 import createTheme from 'spectacle/lib/themes/default';
 
+import code11 from './slides/2_nodejs_under_the_cover/child_process.example';
+
 
 // Require CSS
 require('normalize.css');
@@ -62,7 +64,7 @@ voir plan.md
 ];
 
 const codeSamples = {
-  
+  11: code11
 }
 
 localStorage.clear();
@@ -89,20 +91,26 @@ export default class Presentation extends React.Component {
     });
   }
 
-  startTicker() {
-    if (!this.ticker) {
-      this.ticker = setInterval(() => {
-        const now = new Date();
-        console.log("tick tick");
-        this.setState({tick: now});
-      }, 300);
+  startTicker(onActiveFun) {
+    return () => {
+      if (!this.ticker) {
+        this.ticker = setInterval(() => {
+          const now = new Date();
+          console.log("tick tick");
+          this.setState({tick: now});
+        }, 1000);
+      }
+      onActiveFun && onActiveFun(); 
     }
   }
 
-  stopTicker() {
-    if (this.ticker) {
-      clearInterval(this.ticker);
-      this.ticker = undefined;
+  stopTicker(onActiveFun) {
+    return () => {
+      if (this.ticker) {
+        clearInterval(this.ticker);
+        this.ticker = undefined;
+      }
+      onActiveFun && onActiveFun(); 
     }
   }
 
@@ -114,10 +122,10 @@ export default class Presentation extends React.Component {
           slides.map((slide, index) => {
 
             if (codeSamples[index]) {
-              return React.cloneElement(slide, {key: index, code: codeSamples[index](), onActive: this.startTicker});
+              return React.cloneElement(slide, {key: index, code: codeSamples[index](), onActive: this.startTicker(slide.props.onActive)});
             }
             
-            return React.cloneElement(slide, {key: index, onActive: this.stopTicker });
+            return React.cloneElement(slide, {key: index, onActive: this.stopTicker(slide.props.onActive) });
           })
         }
       </Deck>
