@@ -2,7 +2,7 @@ import React from "react";
 import { Heading, Notes, Slide, Image, Text } from "spectacle";
 
 export default (
-    <Slide transition={['zoom']} bgColor="black" textColor="rose">
+    <Slide bgColor="black" textColor="rose">
         <Heading size={4} textColor="white">
         Scaling vertical
         </Heading>

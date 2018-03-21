@@ -2,7 +2,7 @@ import React from "react";
 import { Heading, Slide, Text, Notes, List, ListItem } from "spectacle";
 
 export default (
-    <Slide transition={['fade']} >
+    <Slide  >
      <Heading>FLUO</Heading>
    
      <Notes>

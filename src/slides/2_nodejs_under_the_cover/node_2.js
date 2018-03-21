@@ -2,7 +2,7 @@ import React from "react";
 import { Heading, Notes, Slide, Image, Text } from "spectacle";
 
 export default (
-    <Slide transition={['zoom']} bgColor="primary">
+    <Slide bgColor="primary">
         <Image src="assets/nodejs-event-loop.png" />
         <Notes>
            <p>TODO refaire</p>

@@ -119,7 +119,7 @@ export default class Presentation extends React.Component {
   render() {
     const { slides } = this.state;
     return (
-      <Deck transition={["zoom", "slide"]} transitionDuration={500} theme={theme}>
+      <Deck transition={['fade']} transitionDuration={500} theme={theme}>
         {
           slides.map((slide, index) => {
 
