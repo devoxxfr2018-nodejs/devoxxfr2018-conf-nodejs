@@ -61,6 +61,8 @@ const slidesImports = [
   import("./slides/2_nodejs_under_the_cover/node_4"),
   import("./slides/2_nodejs_under_the_cover/node_5"),
   import("./slides/2_nodejs_under_the_cover/node_6"),
+  import("./slides/3_javascript/js_1"),
+  import("./slides/4_ecosystem/eco_1"),
   /*
 voir plan.md 
 
