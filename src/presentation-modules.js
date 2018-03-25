@@ -67,6 +67,7 @@ const slidesImports = [
   import("./slides/3_javascript/js_2_spread_operator_on_object"),
   import("./slides/3_javascript/js_3_builder_pattern"),
   import("./slides/4_ecosystem/eco_1"),
+  import("./slides/5_conclusion/conclusion_fluo_languages"),
   /*
 voir plan.md
 
