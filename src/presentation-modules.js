@@ -46,7 +46,9 @@ const theme = createTheme(
 const slidesImports = [
   import("./slides/0_intro/intro_1"),
   import("./slides/0_intro/intro_2"),
-  import("./slides/0_intro/intro_3"),
+  import("./slides/0_intro/intro_3a_fluo_cards"),
+  import("./slides/0_intro/intro_3b_fluo_auto"),
+  import("./slides/0_intro/intro_3c_fluo_loan"),
   import("./slides/0_intro/intro_4"),
   import("./slides/0_intro/intro_5"),
   import("./slides/1_nodejs_4_noobs/start_1"),
