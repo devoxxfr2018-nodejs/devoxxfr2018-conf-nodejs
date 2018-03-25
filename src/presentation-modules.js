@@ -62,12 +62,14 @@ const slidesImports = [
   import("./slides/2_nodejs_under_the_cover/node_5"),
   import("./slides/2_nodejs_under_the_cover/node_6"),
   import("./slides/3_javascript/js_1"),
+  import("./slides/3_javascript/js_2_spread_operator_on_object"),
+  import("./slides/3_javascript/js_3_builder_pattern"),
   import("./slides/4_ecosystem/eco_1"),
   /*
-voir plan.md 
+voir plan.md
 
 */
-  
+
 ];
 
 const codeSamples = {
@@ -94,7 +96,7 @@ export default class Presentation extends React.Component {
         importedSlides.push(slide.default);
       });
       this.setState({ slides: importedSlides });
-      
+
     });
   }
 
@@ -107,7 +109,7 @@ export default class Presentation extends React.Component {
           this.setState({tick: now});
         }, 1000);
       }
-      onActiveFun && onActiveFun(); 
+      onActiveFun && onActiveFun();
     }
   }
 
@@ -117,7 +119,7 @@ export default class Presentation extends React.Component {
         clearInterval(this.ticker);
         this.ticker = undefined;
       }
-      onActiveFun && onActiveFun(); 
+      onActiveFun && onActiveFun();
     }
   }
 
@@ -131,7 +133,7 @@ export default class Presentation extends React.Component {
             if (codeSamples[index]) {
               return React.cloneElement(slide, {key: index, code: codeSamples[index](), onActive: this.startTicker(slide.props.onActive)});
             }
-            
+
             return React.cloneElement(slide, {key: index, onActive: this.stopTicker(slide.props.onActive) });
           })
         }
