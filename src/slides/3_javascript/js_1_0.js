@@ -6,8 +6,7 @@ export default (
         <Heading>Le JS...</Heading> 
         <Heading textColor="primary" size={3}>c'est si pourri que ça ?</Heading>
         <Notes>
-            <p>à retravailler</p>
-            
+           
         </Notes>
     </Slide>
 
