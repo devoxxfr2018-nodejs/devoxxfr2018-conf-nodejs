@@ -74,6 +74,21 @@
 				* Le JS avec Flow / TypesScript le meilleur des 2 mondes
 	* ressources
 		* [https://gi-no.github.io/kotlin-is-like-typescript/](https://gi-no.github.io/kotlin-is-like-typescript/)
-	
-	
-√
+
+== Répartition des slides restants par speaker ==
+
+* Thierry
+	* Intro: Ajouter logo Fluo
+	* revoir l'intro Fluo
+	* Ecosystem: 2 Slide driver db:
+	* logo db driver
+	* mysql perf
+	* 2/3 Slides js everywhere (Fluo): Build One Run Everywhere. React / React Native
+	* js: async/await
+* Alexandre
+	* js: java springboot vs typescrypt
+	* js: typage structurel
+	* js: inference type (Java 10)
+	* ecosystem: prettier, npx
+	* node: statsd
+  * Temps de démarrage de Node (lambda): voir article existant
