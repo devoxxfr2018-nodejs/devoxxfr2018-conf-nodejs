@@ -12,9 +12,24 @@ export default (
           code={code}
           fit
           ranges={[
-            { loc: [0, 12], /*note: "TypeScript / nest"*/ image: "assets/nest-logo.svg" },
+            { loc: [0, 12], image: "assets/nest-logo.svg" },
             { loc: [0, 12], note: "TypeScript / nest" },
+            { loc: [14, 23] },
+            { loc: [14, 25], note: "Inférence..." },
+            { loc: [14, 26]  },
+            { loc: [27, 30], note: "Interfaces à la C#" },
+            { loc: [27, 32], note: "Typage structurel" },
           ]}
-          showLineNumbers={true}
-        />
+          showLineNumbers={true} >
+      <Notes>
+        <ul>
+          <li>annotations - decorateurs</li>
+          <li>typage fort - se lit de gauche à droite comme en go, scala ou kotlin</li>
+          <li>inférence de type comme en Java 10</li>
+          <li>le compilo/transpilateur typescript check plein de choses</li>
+          <li>interface des méthodes mais aussi propriétés</li>
+          <li>typage structurel comme en go</li>
+        </ul>
+      </Notes>
+    </CodeSlide>
 );

@@ -1,23 +1,21 @@
 import React from "react";
-import { Heading, Notes, Slide, Image, Text, Fit, Layout } from "spectacle";
+import { Heading, Notes, Slide, Image, Text, Fit, Layout, Appear } from "spectacle";
 
 export default (
     <Slide transition={['zoom']} bgColor="primary">
         
         <Image src="assets/NodeJS_Foundation_Pantone.png" />
         <Layout>
-            <Image src="assets/logo_IBM.png" width="30%" height="30%"/>
-            <Image src="assets/logo_google.png"  />
-            <Image src="assets/logo_intel.png" width="30%" height="30%" />
+            <Appear><Image src="assets/logo_IBM.png" width="30%" height="30%"/></Appear>
+            <Appear><Image src="assets/logo_google.png"  /></Appear>
+            <Appear><Image src="assets/logo_intel.png" width="30%" height="30%" /></Appear>
         </Layout>
         <Layout>
-            <Image src="assets/logo_joyent.png" />
-            <Image src="assets/logo_microsoft.png" />
+            <Appear><Image src="assets/logo_joyent.png" /></Appear>
+            <Appear><Image src="assets/logo_microsoft.png" /></Appear>
         </Layout>    
         <Notes>
-            <p>Node c'est quoi: un projet ope source, v8 + libub,
-                 un server http et une fondation avec des grosses
-                  boites qui dirigent le projet</p>
+            <p>Node aujourd'hui c'est une fondation autour d'un projet OSS </p>
             
         </Notes>
     </Slide>

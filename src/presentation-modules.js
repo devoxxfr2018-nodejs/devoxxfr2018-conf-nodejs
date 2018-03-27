@@ -21,7 +21,7 @@ import CodeSlide from 'spectacle-code-slide';
 // Import theme
 import createTheme from 'spectacle/lib/themes/default';
 
-import code18 from './slides/2_nodejs_under_the_cover/child_process.example';
+import code19 from './slides/2_nodejs_under_the_cover/child_process.example';
 
 
 // Require CSS
@@ -56,7 +56,8 @@ const slidesImports = [
   import("./slides/1_nodejs_4_noobs/start_2"),
   import("./slides/1_nodejs_4_noobs/start_3"),
   import("./slides/2_nodejs_under_the_cover/node_1"),
-  import("./slides/2_nodejs_under_the_cover/node_2"),
+  import("./slides/2_nodejs_under_the_cover/node_2.a"),
+  import("./slides/2_nodejs_under_the_cover/node_2.b"),
   import("./slides/2_nodejs_under_the_cover/node_3"),
   import("./slides/2_nodejs_under_the_cover/node_4.a"),
   import("./slides/2_nodejs_under_the_cover/node_4.b"),
@@ -81,7 +82,7 @@ voir plan.md
 ];
 
 const codeSamples = {
-  18: code18
+  19: code19
 }
 
 localStorage.clear();

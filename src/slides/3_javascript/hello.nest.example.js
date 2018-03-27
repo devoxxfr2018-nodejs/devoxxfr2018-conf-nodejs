@@ -1,6 +1,6 @@
 export default (
 `@Controller({ path: 'greeting' })
-export class GreetingController {
+class GreetingController {
 
   counter: number = 0;
 
@@ -12,4 +12,23 @@ export class GreetingController {
     );
   }
 }
+
+class Greeting {
+  readonly id: number;
+  readonly content: string;
+
+  constructor(id: number, content: string) {
+    this.id = id;
+    this.content = content;
+  }
+}
+
+const greeting = new Greeting(42, "Devoxx");
+greeting.content = "123"; // Error !!
+
+interface Entity {
+    id: number
+}
+
+const entity: Entity = greeting;
 `);
