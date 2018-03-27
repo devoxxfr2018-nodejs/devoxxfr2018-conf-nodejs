@@ -1,18 +1,26 @@
 import React from "react";
 import { Heading, Notes, Slide, Image, Text } from "spectacle";
+import CodeSlide from 'spectacle-code-slide';
+
+import { startSlide } from './child_process.example';
 
 export default (
-    <Slide bgColor="black" textColor="rose">
-        <Heading size={4} textColor="white">
-        Scaling vertical
-        </Heading>
-        <Heading size={1} textColor="rose" bold>
-        Node Cluster FTW!
-        </Heading>
-        <Notes>
-            <p>un thread à l'heure des laptops à 8 coeurs, des serveurs à 32 coeurs</p>
-            <p>un node par coeur, pas un node tout court</p>
-        </Notes>
-    </Slide>
-
+    <CodeSlide
+          bgColor="secondary"
+          transition={['fade']}
+          lang="js"
+          code="Loading..."
+          fit
+          ranges={[
+            { loc: [0, 2] },
+            { loc: [0, 3] },
+            { loc: [0, 9] },
+            { loc: [0, 10] },
+            { loc: [12, 19] },
+            { loc: [15, 26] },
+            { loc: [0, 21] },
+          ]}
+          showLineNumbers={true}
+          onActive={() => startSlide()}
+        />
 );

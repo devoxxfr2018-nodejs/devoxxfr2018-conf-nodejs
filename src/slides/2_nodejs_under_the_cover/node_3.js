@@ -2,16 +2,12 @@ import React from "react";
 import { Heading, Notes, Slide, Image, Text } from "spectacle";
 
 export default (
-    <Slide bgColor="black" textColor="rose">
-        <Heading size={4} textColor="white">
-        Une archi mono-threadée ?
-        </Heading>
-        <Heading size={1} textColor="rose" bold>
-        WTF !
-        </Heading>
+    <Slide bgColor="primary">
+        <Image src="assets/nodejs-event-loop.png" />
         <Notes>
-            <p>un thread à l'heure des laptops à 8 coeurs, des serveurs à 32 coeurs</p>
-            <p>un node par coeur, pas un node tout court</p>
+           <p>TODO refaire</p>
+           <p>http://abdelraoof.com/blog/2015/10/28/understanding-nodejs-event-loop/</p> 
+            
         </Notes>
     </Slide>
 

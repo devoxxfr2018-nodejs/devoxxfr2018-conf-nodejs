@@ -21,7 +21,7 @@ import CodeSlide from 'spectacle-code-slide';
 // Import theme
 import createTheme from 'spectacle/lib/themes/default';
 
-import code16 from './slides/2_nodejs_under_the_cover/child_process.example';
+import code18 from './slides/2_nodejs_under_the_cover/child_process.example';
 
 
 // Require CSS
@@ -51,18 +51,20 @@ const slidesImports = [
   import("./slides/0_intro/intro_3c_fluo_loan"),
   import("./slides/0_intro/intro_4"),
   import("./slides/0_intro/intro_5"),
+  import("./slides/1_nodejs_4_noobs/start_0"),
   import("./slides/1_nodejs_4_noobs/start_1"),
   import("./slides/1_nodejs_4_noobs/start_2"),
   import("./slides/1_nodejs_4_noobs/start_3"),
   import("./slides/2_nodejs_under_the_cover/node_1"),
   import("./slides/2_nodejs_under_the_cover/node_2"),
   import("./slides/2_nodejs_under_the_cover/node_3"),
-  import("./slides/2_nodejs_under_the_cover/node_3.a"),
-  import("./slides/2_nodejs_under_the_cover/node_3.b"),
-  import("./slides/2_nodejs_under_the_cover/node_3.c"),
-  import("./slides/2_nodejs_under_the_cover/node_4"),
+  import("./slides/2_nodejs_under_the_cover/node_4.a"),
+  import("./slides/2_nodejs_under_the_cover/node_4.b"),
+  import("./slides/2_nodejs_under_the_cover/node_4.c"),
+  import("./slides/2_nodejs_under_the_cover/node_4.d"),
   import("./slides/2_nodejs_under_the_cover/node_5"),
   import("./slides/2_nodejs_under_the_cover/node_6"),
+  import("./slides/2_nodejs_under_the_cover/node_7"),
   import("./slides/3_javascript/js_1_0"),
   import("./slides/3_javascript/js_1_1_spring"),
   import("./slides/3_javascript/js_1_2_nest"),
@@ -78,7 +80,7 @@ voir plan.md
 ];
 
 const codeSamples = {
-  16: code16
+  18: code18
 }
 
 localStorage.clear();

@@ -12,7 +12,8 @@ export default (
           code={code}
           fit
           ranges={[
-            { loc: [0, 15] },
+            { loc: [0, 15], image: "assets/spring-boot-logo.png" },
+            { loc: [0, 15], note: "Java / Spring" },
           ]}
           showLineNumbers={true}
         />

@@ -12,7 +12,8 @@ export default (
           code={code}
           fit
           ranges={[
-            { loc: [0, 12] },
+            { loc: [0, 12], /*note: "TypeScript / nest"*/ image: "assets/nest-logo.svg" },
+            { loc: [0, 12], note: "TypeScript / nest" },
           ]}
           showLineNumbers={true}
         />
