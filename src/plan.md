@@ -78,12 +78,11 @@
 == Répartition des slides restants par speaker ==
 
 * Thierry
-	* Intro: Ajouter logo Fluo
-	* revoir l'intro Fluo
-	* Ecosystem: 2 Slide driver db:
-	* logo db driver
-	* mysql perf
-	* 2/3 Slides js everywhere (Fluo): Build One Run Everywhere. React / React Native
+	* Intro: revoir l'intro Fluo (ajouter notamment logo). 1 slide max.
+	* Ecosystem: 2 Slide driver db: DONE
+	* logo db driver DONE
+	* mysql perf DONE
+	* 2/3 Slides js everywhere (Fluo): Build One Run Everywhere. React / React Native PENDING
 	* js: async/await
 * Alexandre
 	* js: java springboot vs typescrypt
