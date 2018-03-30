@@ -12,11 +12,9 @@ export default (
           code={example}
           fit
           ranges={[
-            { loc: [0, 1], title: 'Un shallow clone avec le spread operator' },
-            { loc: [1, 2], title: 'Equivalent à' },
-            { loc: [2, 3], title: 'Merge de 2 objets' },
-            { loc: [3, 4], title: 'Equivalent à' },
-            { loc: [4, 9], title: 'Exemple' },
+            { loc: [0, 1], title: 'Spread Operator', note: 'Shallow clone' },
+            { loc: [1, 2], note: 'Merge de 2 objets' },
+            { loc: [2, 7], note: 'Exemple' },
           ]}
           showLineNumbers={false}
         />
