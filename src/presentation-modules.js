@@ -69,6 +69,7 @@ const slidesImports = [
   import("./slides/3_javascript/js_1_0"),
   import("./slides/3_javascript/js_1_1_spring"),
   import("./slides/3_javascript/js_1_2_nest"),
+  import("./slides/3_javascript/js_1_3_sandbox"),
   import("./slides/3_javascript/js_2_spread_operator_on_object"),
   import("./slides/3_javascript/js_3_builder_pattern"),
   import("./slides/4_ecosystem/eco_1"),
