@@ -72,10 +72,19 @@ const slidesImports = [
   import("./slides/3_javascript/js_1_3_sandbox"),
   import("./slides/3_javascript/js_2_spread_operator_on_object"),
   import("./slides/3_javascript/js_3_builder_pattern"),
-  import("./slides/4_ecosystem/eco_1"),
-  import("./slides/4_ecosystem/eco_2_db_drivers"),
-  import("./slides/4_ecosystem/eco_3_mysql_driver_perf"),
+  import("./slides/4_ecosystem/eco_1_0"),
+  import("./slides/4_ecosystem/eco_1_1_vscode"),
+  import("./slides/4_ecosystem/eco_1_2_vscode_debug"),
+  import("./slides/4_ecosystem/eco_1_3_chrome"),
+  import("./slides/4_ecosystem/eco_1_4_chrome_cpu"),
+  import("./slides/4_ecosystem/eco_1_5_chrome_memory"),
+  import("./slides/4_ecosystem/eco_2_web_fwk"),
+  import("./slides/4_ecosystem/eco_3_db_drivers"),
+  import("./slides/4_ecosystem/eco_4_integration"),
+  import("./slides/4_ecosystem/eco_5_react_everywhere"),
   import("./slides/5_conclusion/conclusion_fluo_languages"),
+  import("./slides/5_conclusion/5_bonnes_raisons"),
+  import("./slides/4_ecosystem/eco_3_mysql_driver_perf"),
   /*
 voir plan.md
 

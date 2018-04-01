@@ -23,12 +23,30 @@ class Greeting {
   }
 }
 
+// inférence
 const greeting = new Greeting(42, "Devoxx");
+
+// read ONLY
 greeting.content = "123"; // Error !!
 
+// interfaces mais...
 interface Entity {
-    id: number
+  id: number;
 }
 
+// typage structurel
 const entity: Entity = greeting;
+
+// déstructuration
+const { id, content } = greeting;
+
+// templates
+const msg = \`Hello \${greeting}\`;
+
+// lambda
+const myLambda = (input: string | null) => {
+  // null check
+  input.length;
+};
+
 `);
