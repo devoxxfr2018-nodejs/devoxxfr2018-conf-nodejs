@@ -12,12 +12,12 @@ export default (
           code="Loading..."
           fit
           ranges={[
-            { loc: [0, 2] },
+            { loc: [0, 1], title: "child process", image: "assets/child_process.png" },
             { loc: [0, 3] },
-            { loc: [0, 9] },
-            { loc: [0, 10] },
-            { loc: [12, 19] },
-            { loc: [15, 26] },
+            { loc: [0, 9], note: "main <= worker" },
+            { loc: [0, 10], note: "main => worker" },
+            { loc: [12, 19], note: "worker <= main" },
+            { loc: [15, 26], note: "worker => main" },
             { loc: [0, 21] },
           ]}
           showLineNumbers={true}

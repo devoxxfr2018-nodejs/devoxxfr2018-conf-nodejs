@@ -6,8 +6,8 @@ export default (
       
         <Layout margin="-200px">
             <Image  src="assets/fluo_logo.png" width="30%" height="30%"/>
-            <Text textSize="150"><span role="img" aria-label="love">❤️</span></Text>
-            <Image src="assets/js-logo.svg" />
+            <Text textSize="126"><span role="img" aria-label="love">❤️</span></Text>
+            <Image src="assets/js-logo.svg" width="20%" height="20%"/>
         </Layout>
 
         <Notes>

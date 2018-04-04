@@ -3,14 +3,14 @@ export default (startView = new Date().getTime()) => {
 
 return `// main.js
 const { fork } = require('child_process');
-const forked = fork('worker.js');
-forked.on('message', (msg) => {
+const worker = fork('worker.js');
+worker.on('message', (msg) => {
   console.log(
     'Message from worker', 
     msg  ${masterComment()}
   ); 
 });
-forked.send({ hello: 'world' });
+worker.send({ hello: 'world' });
 
 
 // worker.js
@@ -37,7 +37,7 @@ export function startSlide() {
     startView = new Date().getTime();
 }
 
-const THRESHOLD = 10000
+const THRESHOLD = 30000
 
 let counter = 0;
 

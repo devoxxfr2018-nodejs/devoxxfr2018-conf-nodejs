@@ -21,7 +21,7 @@ import CodeSlide from 'spectacle-code-slide';
 // Import theme
 import createTheme from 'spectacle/lib/themes/default';
 
-import code19 from './slides/2_nodejs_under_the_cover/child_process.example';
+import code20 from './slides/2_nodejs_under_the_cover/child_process.example';
 
 
 // Require CSS
@@ -50,7 +50,8 @@ const slidesImports = [
   import("./slides/0_intro/intro_3b_fluo_auto"),
   import("./slides/0_intro/intro_3c_fluo_loan"),
   import("./slides/0_intro/intro_4"),
-  import("./slides/0_intro/intro_5"),
+  import("./slides/0_intro/intro_5a"),
+  import("./slides/0_intro/intro_5b"),
   import("./slides/1_nodejs_4_noobs/start_0"),
   import("./slides/1_nodejs_4_noobs/start_1"),
   import("./slides/1_nodejs_4_noobs/start_2"),
@@ -78,9 +79,12 @@ const slidesImports = [
   import("./slides/4_ecosystem/eco_1_3_chrome"),
   import("./slides/4_ecosystem/eco_1_4_chrome_cpu"),
   import("./slides/4_ecosystem/eco_1_5_chrome_memory"),
-  import("./slides/4_ecosystem/eco_2_web_fwk"),
+  import("./slides/4_ecosystem/eco_2_web_fwk_a"),
+  import("./slides/4_ecosystem/eco_2_web_fwk_b"),
+  import("./slides/4_ecosystem/eco_3_db"),
   import("./slides/4_ecosystem/eco_3_db_drivers"),
-  import("./slides/4_ecosystem/eco_4_integration"),
+  import("./slides/4_ecosystem/eco_4_integration_a"),
+  import("./slides/4_ecosystem/eco_4_integration_b"),
   import("./slides/4_ecosystem/eco_5_react_everywhere"),
   import("./slides/5_conclusion/conclusion_fluo_languages"),
   import("./slides/5_conclusion/5_bonnes_raisons"),
@@ -93,7 +97,7 @@ voir plan.md
 ];
 
 const codeSamples = {
-  19: code19
+  20: code20
 }
 
 localStorage.clear();
