@@ -1,0 +1,2 @@
+webpackJsonp([13],{991:function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var a=n(0),l=n.n(a),r=n(122);n.n(r);t.default=l.a.createElement(r.Slide,{transition:["fade"],bgColor:"white"},l.a.createElement(r.Heading,null,"Int\xe9gration"),l.a.createElement(r.Heading,{size:3,textColor:"secondary"},"seulement REST ?"))}});
+//# sourceMappingURL=13.b08d2e4f.chunk.js.map

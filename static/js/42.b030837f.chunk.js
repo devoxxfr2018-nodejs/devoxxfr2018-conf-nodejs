@@ -1,0 +1,2 @@
+webpackJsonp([42],{956:function(e,t,a){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var n=a(0),r=a.n(n),o=a(122);a.n(o);t.default=r.a.createElement(o.Slide,{bgColor:"primary",bgImage:"assets/presentation-fluo.png",bgSize:"95%",bgRepeat:"no-repeat"})}});
+//# sourceMappingURL=42.b030837f.chunk.js.map
