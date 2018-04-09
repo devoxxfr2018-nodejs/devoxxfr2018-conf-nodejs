@@ -1,2 +1,0 @@
-webpackJsonp([16],{989:function(e,t,a){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var n=a(0),l=a.n(n),i=a(122);a.n(i);t.default=l.a.createElement(i.Slide,{transition:["fade"],bgColor:"white"},l.a.createElement(i.Heading,null,"Quelle base ?"))}});
-//# sourceMappingURL=16.e836da2d.chunk.js.map

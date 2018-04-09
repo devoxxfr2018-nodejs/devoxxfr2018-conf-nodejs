@@ -1,2 +1,0 @@
-webpackJsonp([20],{985:function(e,t,a){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var n=a(0),p=a.n(n),r=a(122);a.n(r);t.default=p.a.createElement(r.Slide,{bgImage:"assets/chrome_profile_cpu.png",bgSize:"100%",bgRepeat:"no-repeat"})}});
-//# sourceMappingURL=20.698a8c15.chunk.js.map

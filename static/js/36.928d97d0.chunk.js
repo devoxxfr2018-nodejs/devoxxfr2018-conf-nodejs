@@ -1,2 +1,0 @@
-webpackJsonp([36],{963:function(e,a,t){"use strict";Object.defineProperty(a,"__esModule",{value:!0});var l=t(0),n=t.n(l),r=t(122);t.n(r);a.default=n.a.createElement(r.Slide,{bgColor:"primary"},n.a.createElement(r.Image,{src:"assets/1000px-Node.js_logo_2015.svg.png"}),n.a.createElement(r.Heading,null,"under the cover"),n.a.createElement(r.Notes,null,n.a.createElement("p",null,"pourquoi \xe7a s'appel Node")))}});
-//# sourceMappingURL=36.928d97d0.chunk.js.map

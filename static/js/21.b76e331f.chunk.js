@@ -1,2 +1,0 @@
-webpackJsonp([21],{984:function(e,t,a){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var l=a(0),n=a.n(l),r=a(122);a.n(r);t.default=n.a.createElement(r.Slide,{transition:["fade"],bgColor:"white"},n.a.createElement(r.Image,{src:"assets/chrome_logo.svg",width:"70%",height:"70%"}),n.a.createElement(r.Appear,null,n.a.createElement(r.Heading,{size:1,textColor:"black",bold:!0},"chrome://inspect")))}});
-//# sourceMappingURL=21.b76e331f.chunk.js.map
