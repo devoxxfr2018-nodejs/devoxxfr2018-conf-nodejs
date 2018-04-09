@@ -15,7 +15,8 @@ export default (
             { loc: [0, 3] },
             { loc: [3, 11] },
             { loc: [13, 28] },
-            { loc: [29, 47] }
+            { loc: [29, 47] },
+            { loc: [50, 54] }
           ]}
           showLineNumbers={true}
         />

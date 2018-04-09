@@ -48,5 +48,10 @@ https.get('http://localhost:8080', (resp) => {
   });
  
 });
+
+// avec node-fetch
+fetch("http://localhost:8080")
+  .then(response => response.json())
+  .then(console.log)
 `  
 );
