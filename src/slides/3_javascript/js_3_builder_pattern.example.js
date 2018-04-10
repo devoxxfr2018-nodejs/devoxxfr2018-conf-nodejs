@@ -73,7 +73,7 @@ export class CoverBuilder {
   }
 }
 
-function aCover(coverShape: $Shape<Cover>): Cover {
+function aCover(coverShape: Partial<Cover>): Cover {
   const defaultCover = {
     id: uuid.v4(),
     type: REPATRIATION_COVER_TYPE,
