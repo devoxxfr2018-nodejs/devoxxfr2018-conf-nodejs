@@ -87,8 +87,9 @@ const slidesImports = [
   import("./slides/4_ecosystem/eco_5b_react_js_react_native"),
   import("./slides/4_ecosystem/eco_5c_react_ssr"),
   import("./slides/5_conclusion/conclusion_fluo_languages"),
-  import("./slides/5_conclusion/5_bonnes_raisons"),
-  import("./slides/5_conclusion/5_merci"),
+  import("./slides/5_conclusion/1_no_silver_bullet"),
+  import("./slides/5_conclusion/2_5_bonnes_raisons"),
+  import("./slides/5_conclusion/3_merci"),
   import("./slides/4_ecosystem/eco_3_mysql_driver_perf"),
   /*
 voir plan.md
