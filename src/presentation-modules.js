@@ -65,6 +65,7 @@ const slidesImports = [
   import("./slides/2_nodejs_under_the_cover/node_6"),
   import("./slides/2_nodejs_under_the_cover/node_7"),
   import("./slides/3_javascript/js_1_0"),
+  import("./slides/3_javascript/js_1_0_trinity"),
   import("./slides/3_javascript/js_1_0_bis_flow_vs_ts"),
   import("./slides/3_javascript/js_1_1_spring"),
   import("./slides/3_javascript/js_1_2_nest"),
