@@ -1,0 +1,2 @@
+webpackJsonp([10],{998:function(e,t,a){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var n=a(0),l=a.n(n),o=a(122);a.n(o);t.default=l.a.createElement(o.Slide,{bgColor:"#F9F9F9",bgImage:"assets/no_silver_bullet.png",bgSize:"100%",bgRepeat:"no-repeat"})}});
+//# sourceMappingURL=10.f33c8552.chunk.js.map

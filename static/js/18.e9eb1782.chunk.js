@@ -1,2 +1,0 @@
-webpackJsonp([18],{988:function(e,t,a){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var l=a(0),s=a.n(l),n=a(122);a.n(n);t.default=s.a.createElement(n.Slide,null,s.a.createElement(n.Layout,null,s.a.createElement(n.Image,{src:"assets/express_logo.png"}),s.a.createElement(n.Image,{src:"assets/koa_logo.jpg",width:"40%",height:"40%"})))}});
-//# sourceMappingURL=18.e9eb1782.chunk.js.map

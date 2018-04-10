@@ -1,0 +1,2 @@
+webpackJsonp([40],{961:function(e,a,r){"use strict";Object.defineProperty(a,"__esModule",{value:!0});var s=r(0),t=r.n(s),l=r(122);r.n(l);a.default=t.a.createElement(l.Slide,{bgColor:"primary",bgImage:"assets/nodejs.org.png"},t.a.createElement(l.Notes,null,t.a.createElement("p",null,"pas aussi riche que le jdk lais des modules de base pour g\xe9rer le fs, le r\xe9seau, http, interragir avec du code natif")))}});
+//# sourceMappingURL=40.c373c512.chunk.js.map

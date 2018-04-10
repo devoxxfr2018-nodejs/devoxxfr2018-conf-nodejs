@@ -1,2 +1,0 @@
-webpackJsonp([15],{999:function(e,t,a){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var r=a(0),n=a.n(r),l=a(122);a.n(l);t.default=n.a.createElement(l.Slide,{bgColor:"primary",bgImage:"assets/talk-mysql-driver-perf.png",bgDarken:"0.6"},n.a.createElement(l.Heading,{textColor:"white",size:3},"node.js & Perf Extr\xeame"),n.a.createElement(l.Heading,{textColor:"rose",size:3},"compatible ?"),n.a.createElement(l.Notes,null,n.a.createElement("p",null,"Felix Geisend\xf6rfer: Faster than C? Parsing Node.js Streams!")))}});
-//# sourceMappingURL=15.27377f1d.chunk.js.map

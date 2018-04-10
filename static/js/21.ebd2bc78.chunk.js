@@ -1,0 +1,2 @@
+webpackJsonp([21],{987:function(e,t,a){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var n=a(0),r=a.n(n),o=a(122);a.n(o);t.default=r.a.createElement(o.Slide,{bgImage:"assets/chrome_profile_memory.png",bgSize:"100%",bgRepeat:"no-repeat"})}});
+//# sourceMappingURL=21.ebd2bc78.chunk.js.map

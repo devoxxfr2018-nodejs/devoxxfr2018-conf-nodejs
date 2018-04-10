@@ -1,0 +1,2 @@
+webpackJsonp([42],{959:function(e,t,a){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var n=a(0),r=a.n(n),l=a(122);a.n(l);t.default=r.a.createElement(l.Slide,{bgColor:"primary"},r.a.createElement(l.Image,{src:"assets/1000px-Node.js_logo_2015.svg.png"}),r.a.createElement(l.Heading,null,"getting started"))}});
+//# sourceMappingURL=42.2987d8e5.chunk.js.map
