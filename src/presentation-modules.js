@@ -52,6 +52,7 @@ const slidesImports = [
   import("./slides/1_nodejs_4_noobs/start_0"),
   import("./slides/1_nodejs_4_noobs/start_1"),
   import("./slides/1_nodejs_4_noobs/start_2"),
+  // TODO slide qui utilise node
   import("./slides/1_nodejs_4_noobs/start_3"),
   import("./slides/2_nodejs_under_the_cover/node_1"),
   import("./slides/2_nodejs_under_the_cover/node_2.a"),
@@ -73,6 +74,7 @@ const slidesImports = [
   import("./slides/3_javascript/js_2_spread_operator_on_object"),
   import("./slides/3_javascript/js_3_builder_pattern"),
   import("./slides/4_ecosystem/eco_1_0"),
+  import("./slides/4_ecosystem/eco_1_0_env_dev"),
   import("./slides/4_ecosystem/eco_1_1_vscode"),
   import("./slides/4_ecosystem/eco_1_2_vscode_debug"),
   import("./slides/4_ecosystem/eco_1_3_chrome"),
