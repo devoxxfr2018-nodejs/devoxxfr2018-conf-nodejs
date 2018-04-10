@@ -12,7 +12,7 @@ export default (
           code={code}
           fit
           ranges={[
-            { loc: [0, 1] },
+            { loc: [0, 0], image: "assets/cluster.png" },
             { loc: [0, 2] },
             { loc: [0, 3] },
             { loc: [0, 5] },
