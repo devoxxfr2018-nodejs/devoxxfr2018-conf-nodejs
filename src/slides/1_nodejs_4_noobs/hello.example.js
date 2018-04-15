@@ -17,9 +17,9 @@ const http = require('http');
 
 http.createServer((req, res) => {
   res.writeHead(
-    200, 
+    200,
     {'Content-Type': 'application/json'}
-  ); 
+  );
   res.end(JSON.stringify(
     {
       msg: 'Hello world! ',
@@ -33,7 +33,7 @@ http.createServer((req, res) => {
 
 // Client HTTP
 const https = require('http');
- 
+
 https.get('http://localhost:8080', (resp) => {
   let data = '';
 
@@ -41,17 +41,19 @@ https.get('http://localhost:8080', (resp) => {
   resp.on('data', (chunk) => {
     data += chunk;
   });
- 
+
   // c'est bon on a tout
   resp.on('end', () => {
     console.log(data);
   });
- 
+
 });
 
 // avec node-fetch
+const fetch = require('node-fetch');
+
 fetch("http://localhost:8080")
   .then(response => response.json())
   .then(console.log)
-`  
+`
 );

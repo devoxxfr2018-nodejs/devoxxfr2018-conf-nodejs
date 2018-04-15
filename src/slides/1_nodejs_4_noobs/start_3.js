@@ -14,9 +14,9 @@ export default (
           ranges={[
             { loc: [0, 3] },
             { loc: [3, 11] },
-            { loc: [13, 28] },
-            { loc: [29, 47] },
-            { loc: [50, 54] }
+            { loc: [13, 30] },
+            { loc: [32, 49] },
+            { loc: [50, 56] }
           ]}
           showLineNumbers={true}
         />
