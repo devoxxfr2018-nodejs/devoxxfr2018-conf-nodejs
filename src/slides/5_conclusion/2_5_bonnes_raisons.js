@@ -7,7 +7,7 @@ export default (
       <Heading size={3} textColor="tertiary">
         5 bonnes raisons ? 
         </Heading>
-        <List ordered margin="50px 200px">
+        <List ordered margin="50px 200px" bold>
               <Appear><ListItem>Simplicité</ListItem></Appear>
               <Appear><ListItem>Légèreté</ListItem></Appear>
               <Appear><ListItem>Le JS moderne</ListItem></Appear>

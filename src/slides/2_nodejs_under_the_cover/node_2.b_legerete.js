@@ -7,19 +7,14 @@ export default (
       <Heading size={3} textColor="tertiary">
         5 bonnes raisons ? 
         </Heading>
-        <List ordered margin="50px 200px">
+        <List ordered margin="50px 200px" bold>
               <ListItem>Simplicité</ListItem>
               <ListItem>Légèreté</ListItem>
+              <ListItem>...</ListItem>
             </List>
     <Notes>
-      <p>la techno n'est qu'unn outil, comme le dit sandro manchusco</p>
-    <ul>
-        <li>C'est simple</li>
-        <li>C'est léger</li>
-        <li>Le JS moderne c'est top</li>
-        <li>L'écosystème est juste énorme</li>
-        <li>React...</li>
-    </ul>
+      <p>pas de gras avec node - un sdk rikiki - résultat ça démarre très vite, emprunte mémoire minimum</p>
+   
     </Notes>
   </Slide>
 );

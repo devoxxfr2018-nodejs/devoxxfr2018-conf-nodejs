@@ -7,12 +7,12 @@ export default (
       <Heading size={3} textColor="tertiary">
         5 bonnes raisons ? 
         </Heading>
-        <List ordered margin="50px 200px">
+        <List ordered margin="50px 200px" bold>
               <ListItem>Simplicité</ListItem>
               <ListItem>Légèreté</ListItem>
               <ListItem>Le JS moderne</ListItem>
               <ListItem>L'écosystème</ListItem>
-              
+              <ListItem>...</ListItem>
             </List>
     <Notes>
       <p>la techno n'est qu'unn outil, comme le dit sandro manchusco</p>
