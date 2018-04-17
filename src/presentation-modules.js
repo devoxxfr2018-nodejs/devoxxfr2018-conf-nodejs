@@ -95,12 +95,11 @@ const slidesImports = [
   import("./slides/4_ecosystem/eco_5a_react_js"),
   import("./slides/4_ecosystem/eco_5b_react_native"),
   import("./slides/4_ecosystem/eco_5c_react_storybook"),
-  import("./slides/4_ecosystem/eco_5d_react_native_web"),
-  import("./slides/4_ecosystem/eco_5e_react_ssr"),
+  //import("./slides/4_ecosystem/eco_5d_react_native_web"),
+  //import("./slides/4_ecosystem/eco_5e_react_ssr"),
   import("./slides/5_conclusion/1_no_silver_bullet"),
   import("./slides/5_conclusion/2_5_bonnes_raisons"),
   import("./slides/5_conclusion/3_merci"),
-  import("./slides/4_ecosystem/eco_3_mysql_driver_perf"),
   /*
 voir plan.md
 

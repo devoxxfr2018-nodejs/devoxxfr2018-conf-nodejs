@@ -4,12 +4,12 @@ import { Heading, Notes, Slide, List, ListItem, Link, Text, Image, Appear } from
 export default (
   <Slide>
       <Heading>Merci !</Heading>
-      <List ordered margin="50px -200px">
-        <ListItem>Cette présentation : <Link href="https://devoxxfr2018-nodejs.github.io/devoxxfr2018-conf-nodejs">https://devoxxfr2018-nodejs.github.io/devoxxfr2018-conf-nodejs</Link></ListItem>
-        <ListItem>Blogs posts sur NodeJs : <Link href="https://medium.freecodecamp.org/@samerbuna">https://medium.freecodecamp.org/@samerbuna</Link></ListItem>
-        <ListItem>NodeJs la première conf : <Link href="https://www.youtube.com/watch?v=ztspvPYybIY">https://www.youtube.com/watch?v=ztspvPYybIY</Link></ListItem>
-      
+      <List ordered margin="50px -120px">
+        <ListItem margin="50px">NodeJs la première conf : <Link textColor="tertiary" href="https://www.youtube.com/watch?v=ztspvPYybIY">https://bit.ly/1bTy7Ay</Link></ListItem>
+        <ListItem margin="50px">Blogs posts sur NodeJs : <Link textColor="tertiary" href="https://medium.freecodecamp.org/@samerbuna">https://bit.ly/2HCPcmN</Link></ListItem>
+        <ListItem margin="50px">Cette présentation : <Link textColor="tertiary" href="https://devoxxfr2018-nodejs.github.io/devoxxfr2018-conf-nodejs">https://bit.ly/2HsyoBm</Link></ListItem>
       </List>
+      <Text bold textColor="tertiary">@Alex_Victoor @ThierryAbalea</Text>
     <Notes>
       <p>la techno n'est qu'unn outil, comme le dit sandro manchusco</p>
     <ul>
