@@ -1,0 +1,2 @@
+webpackJsonp([10],{1003:function(e,t,a){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var o=a(0),n=a.n(o),s=a(122);a.n(s);t.default=n.a.createElement(s.Slide,{bgImage:"assets/storybook-mobile.gif",bgSize:"65%",bgRepeat:"no-repeat"})}});
+//# sourceMappingURL=10.b6d5f068.chunk.js.map

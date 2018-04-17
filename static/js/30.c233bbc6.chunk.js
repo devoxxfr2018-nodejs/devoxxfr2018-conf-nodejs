@@ -1,0 +1,2 @@
+webpackJsonp([30],{979:function(e,t,a){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var l=a(0),n=a.n(l),o=a(122),r=(a.n(o),{text:{"font-size":"7rem"}});t.default=n.a.createElement(o.Slide,{transition:["FADE"],bgColor:"#F5DD3A"},n.a.createElement(o.Layout,null,n.a.createElement(o.Text,{style:r.text,padding:"40px",textColor:"black"},"ES6\u200f"),n.a.createElement(o.Text,{style:r.text,padding:"40px",textColor:"black"},"ES2018\u200f")))}});
+//# sourceMappingURL=30.c233bbc6.chunk.js.map

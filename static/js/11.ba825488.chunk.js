@@ -1,0 +1,2 @@
+webpackJsonp([11],{1002:function(e,t,a){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var r=a(0),n=a.n(r),i=a(122);a.n(i);t.default=n.a.createElement(i.Slide,{bgColor:"primary"},n.a.createElement(i.Image,{src:"assets/react-native.png",width:"80%",height:"80%",margin:"30"}))}});
+//# sourceMappingURL=11.ba825488.chunk.js.map

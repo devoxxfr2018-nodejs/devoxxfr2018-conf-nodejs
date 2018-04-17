@@ -1,0 +1,2 @@
+webpackJsonp([24],{989:function(e,t,a){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var n=a(0),l=a.n(n),s=a(122);a.n(s);t.default=l.a.createElement(s.Slide,null,l.a.createElement(s.Image,{src:"assets/vscode_logo.png",width:"70%"}))}});
+//# sourceMappingURL=24.8c680977.chunk.js.map
