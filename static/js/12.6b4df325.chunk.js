@@ -1,2 +1,0 @@
-webpackJsonp([12],{1001:function(e,t,a){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var r=a(0),n=a.n(r),s=a(122);a.n(s);t.default=n.a.createElement(s.Slide,{bgColor:"primary"},n.a.createElement(s.Image,{src:"assets/react-js.png",width:"80%",height:"80%",margin:"30"}))}});
-//# sourceMappingURL=12.6b4df325.chunk.js.map

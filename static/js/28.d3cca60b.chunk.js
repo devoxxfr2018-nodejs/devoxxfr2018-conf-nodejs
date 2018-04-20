@@ -1,2 +1,0 @@
-webpackJsonp([28],{977:function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var a=n(0),r=n.n(a),i=n(122);n.n(i);t.default=r.a.createElement(i.Slide,{transition:["spin"],bgImage:"assets/js_trinity.jpg",bgSize:"80%",bgRepeat:"no-repeat"},r.a.createElement(i.Notes,null,r.a.createElement("p",null,"refactoring de martin fowler")))}});
-//# sourceMappingURL=28.d3cca60b.chunk.js.map

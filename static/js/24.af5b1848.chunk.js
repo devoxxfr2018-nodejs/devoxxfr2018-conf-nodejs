@@ -1,0 +1,2 @@
+webpackJsonp([24],{986:function(e,t,a){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var n=a(0),r=a.n(n),o=a(122);a.n(o);t.default=r.a.createElement(o.Slide,{transition:["spin"],bgImage:"assets/2018-04-01_05-58-27.jpg",bgDarken:"0.7"},r.a.createElement(o.Heading,{textColor:"rose"},"NodeJS"),r.a.createElement(o.Heading,{textColor:"primary"},"et son"),r.a.createElement(o.Heading,{textColor:"rose"},"ECOSYSTEME"))}});
+//# sourceMappingURL=24.af5b1848.chunk.js.map

@@ -1,2 +1,0 @@
-webpackJsonp([13],{1e3:function(e,t,o){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var a=o(0),l=o.n(a),r=o(122);o.n(r);t.default=l.a.createElement(r.Slide,{bgColor:"black",textColor:"rose"},l.a.createElement(r.Heading,{size:4,textColor:"white"},"JavaScript chez Fluo"),l.a.createElement(r.Heading,{size:1,textColor:"rose",bold:!0},"+ de 200 000 lignes de code"))}});
-//# sourceMappingURL=13.88a667ca.chunk.js.map

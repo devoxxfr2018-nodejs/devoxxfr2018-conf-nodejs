@@ -1,0 +1,2 @@
+webpackJsonp([29],{976:function(e,t,a){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var n=a(0),r=a.n(n),s=a(122);a.n(s);t.default=r.a.createElement(s.Slide,{transition:["spin"],bgImage:"assets/js-good-part.jpg",bgDarken:"0.5"},r.a.createElement(s.Heading,null,"Le JS..."),r.a.createElement(s.Heading,{textColor:"primary",size:3},"c'est si pourri que \xe7a ?"),r.a.createElement(s.Notes,null))}});
+//# sourceMappingURL=29.625d9792.chunk.js.map
